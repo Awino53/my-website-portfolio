@@ -4,24 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my website portfolio</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
     />
   </head>
   <body>
-    <div class="section-a">
+    <div class="section-a" style="padding: 50px">
       <nav>
         <div>
-          <h1>the pro</h1>
+          <h1>hi_Tech</h1>
         </div>
         <div class="dropdown">
-          <h2>home</h2>
-          <h2>resume</h2>
-          <h2>portfolio</h2>
-          <h2>blog</h2>
-          <h2>contact</h2>
+          <h2><a href="">home</a></h2>
+          <h2><a href="cv.html">resume</a></h2>
+          <h2><a href="">portfolio</a></h2>
+          <h2><a href="">services</a></h2>
         </div>
       </nav>
 
@@ -29,10 +28,10 @@
         <h2>hi there!</h2>
         <h1>i am a developer |</h1>
         <h2>i make the simple complex</h2>
-        <a href="">contact me</a>
+        <a href="contact.html">contact me</a>
       </div>
 
-      <div class="contact">
+      <div class="contact" style="margin-top: 100px">
         <div class="mail">
           <p>email</p>
           <a href="">estherojul53@gmail.com</a>
@@ -53,7 +52,7 @@
         <img src="/dp-removebg.png" alt="" height="500vh" />
       </div>
       <div class="description">
-        <p style="color: green">who am i</p>
+        <h1 style="color: green">who am i</h1>
         <h3 style="font-weight: bolder">
           "I am Esther Awino Ojul, a passionate and dedicated full-stack web
           developer with a background in community development. I believe in
@@ -83,90 +82,11 @@
         <a href="">estherojul53@gmail.com</a>
       </div>
     </div>
-    <style>
-      body {
-        font-family: "Arial", sans-serif;
-        text-transform: capitalize;
-        margin: 0;
-        padding: 0;
-      }
-      nav {
-        display: flex;
-        gap: 50%;
-      }
-      .dropdown {
-        display: flex;
-        gap: 30px;
-      }
-      .intro a {
-        background-color: green;
-        padding: 10px 35px;
-        text-decoration: none;
-        color: white;
-      }
-      .contact {
-        display: flex;
-        gap: 30px;
-      }
-      .contact p {
-        font-size: 20px;
-        border-left: 1px solid rgb(137, 133, 133);
-        padding: 5px;
-      }
-      .mail a {
-        text-decoration: none;
-        color: black;
-      }
-      .section-a {
-        background-color: rgb(37, 35, 35);
-        background-image: url("dp-removebg.png");
-        background-position: bottom right; /* Position the background image at the bottom left */
-        background-repeat: no-repeat; /* Prevent the image from repeating */
-        background-size: 40% auto; /* Keep the image's original size or adjust as needed */
-        height: 70vh; /* Ensure the image covers the entire screen height */
-        margin: 0; /* Remove any default margin */
-      }
-      .age {
-        background-color: black;
-        color: white;
-        display: flex;
-      }
-      .description button {
-        background-color: green;
-        padding: 10px 35px;
-        border: none;
-      }
 
-      .description a {
-        text-decoration: none;
-        color: white;
-      }
-      .services {
-        background-color: black;
-        color: white;
-        margin-top: -25px;
-
-      }
-      .services img {
-        width: 60px; /* Set the width of the icons */
-        height: 60px; /* Set the height of the icons */
-        object-fit: cover; /* Prevent distortion */
-        display: block; /* Avoid inline image issues */
-        margin: 0 auto; /* Center images within the div */
-        border-radius: 50%; /* Optional: Make them circular */
-      }
-      .services-1 {
-        display: grid; /* Enable grid layout */
-        grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-        gap: 40px; /* Space between items */
-        padding: 20px;
-        text-align: center;
-        
-      }
-       
-    </style>
     <div class="services">
-      <h1 style="padding: 20px">my services</h1>
+      <h1 style="padding: 50px; color: green; text-align: center">
+        my services
+      </h1>
       <div class="services-1">
         <div>
           <img src="/images/code brackets.avif" alt="" />
@@ -232,11 +152,9 @@
           </p>
         </div>
       </div>
-      <h1 style="text-align: center;"><a href="" style=" background-color: green;
-        padding: 3px 30px;
-        text-decoration: none;
-        text-align: center;
-        color: white;">get in touch</a></h1>
+      <h1 style="text-align: center; padding: 20px">
+        <a href="">get in touch</a>
+      </h1>
     </div>
   </body>
 </html>
